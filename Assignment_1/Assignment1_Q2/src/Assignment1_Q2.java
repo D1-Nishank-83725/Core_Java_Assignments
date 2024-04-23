@@ -11,16 +11,16 @@ public class Assignment1_Q2 {
 			int price1 = 100;
 			int price2 = 200;
 			
-			System.out.println("1.  Dosa                - 100");
-			System.out.println("2.  Fried Rice          - 200");
-			System.out.println("3.  Thai Curry          - 100");
-			System.out.println("4.  Butter Chicken      - 200");
-			System.out.println("5.  Naan                - 100");
-			System.out.println("6.  Paneer Tikka Masala - 200");
-			System.out.println("7.  Pizza               - 100");
-			System.out.println("8.  Pasta               - 200");
-			System.out.println("9.  Mac and Cheese      - 100");
-			System.out.println("10. Generate Bill            ");
+			System.out.println("1.   Dosa                -  100");
+			System.out.println("2.   Fried Rice          -  200");
+			System.out.println("3.   Thai Curry          -  100");
+			System.out.println("4.   Butter Chicken      -  200");
+			System.out.println("5.   Naan                -  100");
+			System.out.println("6.   Paneer Tikka Masala -  200");
+			System.out.println("7.   Pizza               -  100");
+			System.out.println("8.   Pasta               -  200");
+			System.out.println("9.   Mac and Cheese      -  100");
+			System.out.println("10.  Generate Bill             ");
 			
 			
 			System.out.println("Enter the food Number from Menu you want");
