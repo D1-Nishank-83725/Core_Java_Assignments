@@ -7,7 +7,7 @@ public class Assignment2_Q1 {
 		
 		while(true) {
 
-			System.out.println("Credit Limit Calculator");
+			System.out.println("Credit Limit Calculator:- ");
 			
 			
 			Scanner sc = new Scanner(System.in);
