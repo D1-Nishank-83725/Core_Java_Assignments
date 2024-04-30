@@ -59,8 +59,9 @@ public class Program {
 			case 3:
 				int totalRuns = 0;
 				for(Player p : team) {
-					if(p != null) {						
-						totalRuns += p.getRuns();
+					if(p != null) {		
+						Cricketer c = (Cricketer) p;
+						totalRuns += c.getRuns();
 					}				
 				}
 				System.out.println("Total Runs Made: " + totalRuns);
@@ -70,8 +71,9 @@ public class Program {
 			case 4:
 				int totalWickets = 0;
 				for(Player p : team) {
-					if(p != null) {						
-						totalWickets += p.getWickets();
+					if(p != null) {		
+						Cricketer c = (Cricketer) p;
+						totalWickets += c.getWickets();
 					}				
 				}
 				System.out.println("Total Wickets Taken: " + totalWickets);

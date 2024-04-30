@@ -10,8 +10,6 @@ public abstract class Player {
 	String name;
 	int age;
 	int matchesPlayed;
-	int runs;
-	int wickets;
 	
 	
 	//Constructor
@@ -74,25 +72,6 @@ public abstract class Player {
 	}
 
 	
-	public int getRuns() {
-		return runs;
-	}
-
-
-	public void setRuns(int runs) {
-		this.runs = runs;
-	}
-
-
-	public int getWickets() {
-		return wickets;
-	}
-
-
-	public void setWickets(int wickets) {
-		this.wickets = wickets;
-	}
-
 
 	//toString - DISPLAY
 	
@@ -115,13 +94,10 @@ public abstract class Player {
 		age = sc.nextInt();
 		System.out.println("Enter your Matches Played: ");
 		matchesPlayed = sc.nextInt();
-		System.out.println("Enter the number of Runs you made: ");	
-		runs = sc.nextInt();
-		System.out.println("Enter the number of Wickets you took: ");		
-		wickets = sc.nextInt();
 	}
-	
-	
+
+
+
 	
 	
 	

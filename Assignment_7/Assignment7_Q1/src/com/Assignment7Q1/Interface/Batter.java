@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public interface Batter {
 	
-	int getRuns(Scanner sc);
+	int getRuns();
 
 
 }
