@@ -9,11 +9,11 @@ public class Program {
 //		//Using StringBuilder
 		
 		
-//		StringBuilder str = new StringBuilder("Sunbeam");
-//		System.out.println("Original String: " + str);
-//		
-//		StringBuilder strrev = (str.reverse());
-//		System.out.println("Reversed String: " + strrev);
+		StringBuilder str = new StringBuilder("Sunbeam");
+		System.out.println("Original String: " + str);
+		
+		StringBuilder strrev = (str.reverse());
+		System.out.println("Reversed String: " + strrev);
 		
 		
 //		Using StringBuffer
