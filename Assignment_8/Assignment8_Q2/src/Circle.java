@@ -6,7 +6,8 @@ public class Circle {
 	
 	public Circle() {
 		diameter = 100;
-		p1 = new Point2D();
+		p1 = new Point2D(100, 100);
+		
 	}
 
 
@@ -17,6 +18,12 @@ public class Circle {
 
 	public void setDiameter(double diameter) {
 		this.diameter = diameter;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Circle [diameter=" + diameter + ", p1=" + p1.toString() + "]";
 	}
 
 
