@@ -15,6 +15,9 @@ public class Program {
 
 		System.out.println("Number of Words in the String: " + wordsarr.length);
 		
+		
+//		Using Counter for the same 
+		
 //		int counter = 0;
 //		for (String word : wordsarr) {
 //			counter++;
@@ -23,10 +26,7 @@ public class Program {
 //		System.out.println("Number of Words in the String: " + counter);
 		
 		
-		
-		
-		
-//		int noOfWords = 0;
+ 
 		
 //		Direct in-built Functions 
 		StringTokenizer strt = new StringTokenizer(str, " ");
